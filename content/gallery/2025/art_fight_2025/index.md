@@ -22,11 +22,6 @@ and allowing me to post it!
 
 <!-- more -->
 
-{% sidenote() %}
-One defense is still pending permission from the creator.
-I'll update the page when they reply.
-{% end %}
-
 For the uninitiated, Art Fight is a game taking place over the month of July
 where artists draw (or sculpt, or animate, or crochet, or ...) each other's characters.
 Sending somebody an artwork is referred to as an "attack",
