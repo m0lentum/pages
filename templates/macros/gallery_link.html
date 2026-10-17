@@ -2,7 +2,7 @@
 as used in the gallery listing and some other places #}
 
 {% macro gallery_link(page, size=300, badges=true) %}
-<div class="gallery-post">
+<figure class="gallery-post">
     {% set path = "@/" ~ page.colocated_path ~ page.extra.main_image %}
     {% set meta = get_image_metadata(path=path) %}
     {# crop the image such that the shorter side is section.extra.image_size #}
@@ -43,8 +43,7 @@ as used in the gallery listing and some other places #}
                 {% endif %}
             {% endif %}
         </div>
-        <h2 class="gallery-title">{{ page.title }}
-        </h2>
+        <figcaption><h2 class="gallery-title">{{ page.title }}</h2></figcaption>
     </a>
-</div>
+</figure>
 {% endmacro gallery_link %}
