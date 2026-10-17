@@ -117,11 +117,6 @@ article.artwork {
   img {
     border-radius: 2px;
     background: var(--border-color);
-    max-width: 1080px;
-    max-height: 1080px;
-    @media (max-width: 1080px) {
-      max-width: 90vw;
-    }
   }
 }
 
@@ -132,15 +127,29 @@ article.artwork {
     width: 100%;
   }
 
-  header,
-  .post,
-  .artwork p {
+  // width limit moved from container level to blocks inside
+  // so that we can have images wider and side by side
+  width: 100%;
+  max-width: 100%;
+  // character pages use .post as the article class, gallery pages use .artwork.
+  // not sure if this is actually a meaningful difference.
+  .header, .post > *:not(img), .artwork > *:not(img), .license, .footer {
     // same max-width and padding as the normal `container center` used elsewhere
     max-width: 864px;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .post, .artwork {
     img {
+      // ad-hoc max size to keep it within screen size,
+      // probably good for most situations
+      max-width: 90vw;
+      max-height: 90vh;
+    }
+    p:has(img) {
       max-width: 100%;
+      text-align: center;
     }
   }
 
@@ -156,11 +165,25 @@ article.artwork {
   }
 }
 
+// horizontal rows of images that wrap when necessary.
+// at least for now just doing sizing based on actual image size,
+// although would be cool to size things so that they fit a certain number side by side
+.img-row {
+  display: flex;
+  flex-flow: row wrap;
+  // undo some settings done in .gallery-container
+  .gallery-container .post &, .gallery-container .artwork & {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 .gallery {
   width: 100vw;
   max-width: 1920px;
   padding: 1em;
   text-align: center;
+  align-self: center;
 
   display: flex;
   flex-flow: row wrap;

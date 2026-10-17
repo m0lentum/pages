@@ -25,19 +25,22 @@ with an ostentatious fashion sense typical of her people.
 
 Body details and alternative outfits:
 
-
 ![Naked version of the above image of Aava,
 along with two more views from the side and the back
 displaying the fins on her back.](aava_nude.jpg)
 
-![Aava wearing a strapless dress with the same jewelry and makeup as before.](aava_dress.jpg)
-
-![Aava wearing the same halter top as before but colored blue instead of pink,
-with bracers covering the forearms, a flower in her hair,
-and less jewelry and makeup.](aava_halter_casual.jpg)
-
-![Aava wearing the same dress as before but colored pink instead of blue,
-with less jewelry and makeup.](aava_dress_casual.jpg)
+{{ img_row(
+  img_style="width: 600px;",
+  paths=["aava_dress.jpg", "aava_halter_casual.jpg", "aava_dress_casual.jpg"],
+  alts=[
+    "Aava wearing a strapless dress with the same jewelry and makeup as before.",
+    "Aava wearing the same halter top as before but colored blue instead of pink,
+    with bracers covering the forearms, a flower in her hair,
+    and less jewelry and makeup.",
+    "Aava wearing the same dress as before but colored pink instead of blue,
+    with less jewelry and makeup.",
+  ]
+)}}
 
 
 ## Relationships

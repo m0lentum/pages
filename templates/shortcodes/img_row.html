@@ -1,0 +1,12 @@
+<div class="img-row"
+    >
+    {% for path in paths %}
+    <img 
+        src="{{ get_url(path=page.path ~ path) }}"
+        alt="{{ alts[loop.index0] }}"
+        {%- if img_style -%}
+        style="{{ img_style }}"
+        {%- endif -%}
+    />
+    {% endfor %}
+</div>
