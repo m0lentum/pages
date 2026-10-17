@@ -173,9 +173,9 @@ Characters:
     size=200
 ) }}
 {{ gallery_link(
-    title="Elegil",
-    page_path="@/characters/elegil/",
-    img_file="elegil_square.jpg",
+    title="Gil",
+    page_path="@/characters/gil/",
+    img_file="gil_square.jpg",
     size=200
 ) }}
 </div>

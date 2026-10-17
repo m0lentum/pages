@@ -2,7 +2,7 @@
 title = "Inktober 2025"
 date = 2025-10-31
 [taxonomies]
-characters = ["Aava", "Miriel", "Ivu", "Olivia", "Basil", "Elegil"]
+characters = ["Aava", "Miriel", "Ivu", "Olivia", "Basil", "Gil"]
 [extra]
 license = "CC0"
 container_classes = "gallery-container"

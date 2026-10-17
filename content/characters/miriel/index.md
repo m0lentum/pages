@@ -60,7 +60,7 @@ and the wider Yon project's personal significance to me.
   (there are limits to where an aquatic nomad
   and a terrestrial one can wander together after all),
   but they always gravitate back to each other.
-- [Elegil]\: childhood friends.
+- [Gil]\: childhood friends.
   Gil no longer lives with the elf community,
   but the two still meet from time to time.
 - [Aava]\: friend.
@@ -80,6 +80,6 @@ and the wider Yon project's personal significance to me.
 [yon]: /notes/yon/
 [salma]: /characters/salma/
 [aava]: /characters/aava/
-[elegil]: /characters/elegil/
+[gil]: /characters/gil/
 [ivu]: /characters/ivu/
 [of-elves-and-worlds]: /blog/2026/of-elves-and-worlds/
