@@ -171,10 +171,20 @@ article.artwork {
 .img-row {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  img {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   // undo some settings done in .gallery-container
   .gallery-container .post &, .gallery-container .artwork & {
     max-width: 100%;
     width: 100%;
+  }
+
+  &.img-row-reverse {
+    flex-direction: row-reverse;
   }
 }
 
