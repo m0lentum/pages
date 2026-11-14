@@ -145,7 +145,7 @@ article.artwork {
       // ad-hoc max size to keep it within screen size,
       // probably good for most situations
       max-width: min(90vw, 100%);
-      max-height: min(90vh, 100%);
+      max-height: 90vh;
     }
     p:has(img) {
       max-width: 100%;
