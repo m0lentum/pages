@@ -30,7 +30,7 @@ along with two more views from the side and the back
 displaying the fins on her back.](aava_nude.jpg)
 
 {{ img_row(
-  img_style="width: 600px;",
+  img_style="max-width: min(90vh, 600px);",
   paths=["aava_dress.jpg", "aava_halter_casual.jpg", "aava_dress_casual.jpg"],
   alts=[
     "Aava wearing a strapless dress with the same jewelry and makeup as before.",

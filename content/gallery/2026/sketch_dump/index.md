@@ -28,7 +28,7 @@ My new hobby is going outside with my gouache kit to sketch scenery from life.
 Here's some of the best ones from the ~year I've been doing it.
 
 {{ img_row(
-  img_style="max-width: 800px;max-height: 800px",
+  img_style="max-width: min(90vw, 100%, 800px); max-height: min(90vh, 100%, 800px)",
   paths=["plein_01.jpg", "plein_02.jpg", "plein_03.jpg", "plein_04.jpg", "plein_05.jpg", "plein_06.jpg", "plein_07.jpg", "plein_08.jpg"], 
   alts=[
     "A ski hill in summer time, forest-covered except for where a ski slope goes, and with a ski jump tower at the top, seen across a lake",
@@ -45,7 +45,7 @@ Here's some of the best ones from the ~year I've been doing it.
 ## More gouache stuff
 
 {{ img_row(
-  img_style="max-width: 800px;max-height: 800px",
+  img_style="max-width: min(90vw, 100%, 800px); max-height: min(90vh, 100%, 800px)",
   paths=["rower.jpg", "rain.jpg", "beachtree.jpg", "kantele.jpg", "dryad.jpg"], 
   alts=[
     "Person in a yellow raincoat rowing a small wooden boat across clear green water on a sunny day",
